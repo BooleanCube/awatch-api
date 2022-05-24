@@ -143,6 +143,8 @@ public void sendRandomGIF(GIF gif) {
 }
 ```
 
-*Note: I added a #toEmbed() which returns EmbedBuilder to each one of the models for any discord bot developers*
+*Note: I added a #toEmbed() which returns an EmbedBuilder to each one of the models for any discord bot developers*
+
+----
 
 **Developed by BooleanCube**
