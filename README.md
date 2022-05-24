@@ -1,5 +1,10 @@
 # awatch-api
-Java Wrapper for Jikan API
+> Java Wrapper for anime related APIs
+
+Awatch is powered by:
+- [Jikan API](https://jikan.moe/)
+- [Kawaii API](https://kawaii.red/)
+- [Animechan API](https://animechan.vercel.app/)
 
 An example of a project that uses this api:
 https://github.com/BooleanCube/lollipop-bot
