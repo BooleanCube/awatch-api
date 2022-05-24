@@ -6,7 +6,7 @@ Awatch is powered by:
 - [Kawaii API](https://kawaii.red/)
 - [Animechan API](https://animechan.vercel.app/)
 
-An example of a project that uses this api:
+An example of a project that uses this wrapper library:
 https://github.com/BooleanCube/lollipop-bot
 
 ## Usage
