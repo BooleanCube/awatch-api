@@ -6,10 +6,10 @@ Awatch is powered by:
 - [Kawaii API](https://kawaii.red/)
 - [Animechan API](https://animechan.vercel.app/)
 
-An example of a project that uses this wrapper library:
+An example of a project that uses this wrapper library: <br>
 https://github.com/BooleanCube/lollipop-bot
 
-Install JDA Wrapper Library for JSON wrapper (DataObject and DataArray)
+Install JDA Wrapper Library for JSON wrapper (DataObject and DataArray) <br<>
 Installation Steps are in this README.md: https://github.com/DV8FromTheWorld/JDA/blob/master/README.md
 
 ## Usage
