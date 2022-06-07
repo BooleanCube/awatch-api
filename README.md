@@ -9,6 +9,8 @@ Awatch is powered by:
 An example of a project that uses this wrapper library: <br>
 https://github.com/BooleanCube/lollipop-bot
 
+## Necessary Libraries
+
 Install JDA Wrapper Library for JSON wrapper (DataObject and DataArray) <br>
 Installation Steps are in this README.md: https://github.com/DV8FromTheWorld/JDA/blob/master/README.md
 
