@@ -10,7 +10,7 @@ An example of a project that uses this wrapper library:
 https://github.com/BooleanCube/lollipop-bot
 
 ## Usage
-1. Declare a client object, attach RListener
+1. Declare a client object, attach AListener
 
 ```java
 class Client implements AListener {
@@ -67,7 +67,7 @@ client.reandomGIF();
 client.randomTrivia();
 ```
 
-3. Implement the methods of RListener
+3. Implement the methods of AListener
 
 ```java
 @Override
@@ -156,8 +156,6 @@ public void sendTrivia(Question question) {
     System.out.println("Options: " + question.options.toString());
 }
 ```
-
-*Note: I added a #toEmbed() which returns an EmbedBuilder to each one of the models for any discord bot developers*
 
 ----
 
