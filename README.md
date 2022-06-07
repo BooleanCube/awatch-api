@@ -62,6 +62,9 @@ client.randomAnime(boolean nsfw);
 
 // get a randomly chosen anime related GIF
 client.reandomGIF();
+
+// get a random anime to use in your trivia
+client.randomTrivia();
 ```
 
 3. Implement the methods of RListener
@@ -145,6 +148,12 @@ public void sendRandomAnime(Anime random) {
 @Override
 public void sendRandomGIF(GIF gif) {
     System.out.println(gif.toString());
+}
+
+@Override
+public void sendTrivia(Question question) {
+    System.out.println("Correct Anime: " + question.correct.title);
+    System.out.println("Options: " + question.options.toString());
 }
 ```
 
