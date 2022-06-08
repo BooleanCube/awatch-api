@@ -31,7 +31,7 @@ public class ThreadManagement {
         ScheduledExecutorService scheduler = Executors.newSingleThreadScheduledExecutor();
         Runnable apiRefresh = () -> {
             ALoader.animeCache.clear();
-            RLoader.mangaCache.clear();
+            //RLoader.mangaCache.clear();
         };
         // Start API refresh cycle once a day to refresh animes everyday to make sure new data is cached later on
         scheduler.scheduleWithFixedDelay(apiRefresh, 1, 1, TimeUnit.DAYS);
